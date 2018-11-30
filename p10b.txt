@@ -1,0 +1,24 @@
+ class a
+ {
+ 	int i=0;
+ 	void show (int a )
+ 	{
+ 		i=a;
+ 	}
+ }
+ class b extends a
+ {
+ 	void show (int a)
+ 	{
+ 		i=2*a;
+ 		System.out.println("value of i in subclass"+i);
+ 	}
+ }
+ class test
+ {
+ 	public static void main(String[] args) 
+ 	{
+ 		b obj = new b();
+ 		obj.show(4);
+ 	}
+ }

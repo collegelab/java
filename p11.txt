@@ -1,0 +1,19 @@
+/*appletcode="javaapp.class" width=100,height=100</applet>*/
+import java.applet.Applet;
+import java.awt.*;
+public class javaapp.extends Applet
+{
+	public void paint(Graphics g)
+	{
+		g.setcolor(color.pink);
+		g.fillOval(20,20,100,100);
+		g.setcolor(color.Blue);
+		g.fillOval(150,20,50,100);
+		g.setcolor(color.Red);
+		g.drawOval(20,140,100,100);
+		g.setcolor(color.Magenta);
+		g.drawOval(40,140,60,100);
+		g.setcolor(color.Orange);
+		g.drawOval(60,140,20,100);
+	}
+}

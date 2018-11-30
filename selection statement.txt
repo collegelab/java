@@ -1,0 +1,14 @@
+class test 
+{
+public static void main (String args[])
+{
+int a=10.b=20;
+if(a<b)
+{
+System.out.printn("b is greatest"+b);
+}
+else
+{
+System.out.printn("a is greatest"+a);
+}}
+}

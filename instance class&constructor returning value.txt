@@ -1,0 +1,29 @@
+class test
+{
+double radius;
+double pie=3.14;
+double Area();
+{
+return (radius*radius*pir);
+}
+circle(double r)
+{
+radius=r;
+}
+circle()
+{
+radius=4;
+}}
+class circle
+{
+public static void main (String args[])
+{
+double a;
+circle A1=nw circle();
+circle A2=nw circle();
+a=A1.Area();
+a=A2.Area();
+System.out.println("area of circle is"=a);
+System.out.println("area of circle is"=a);
+}
+}

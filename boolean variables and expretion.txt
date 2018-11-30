@@ -1,0 +1,21 @@
+class test
+{
+public static void main (String args[])
+{
+boolean t=true;
+{
+first:
+{
+second:
+{
+third:
+{
+System.out.pintln("before brake");
+If(t)
+{
+break second;
+}
+System.out.println("word exeat");
+}
+System.out.println("true");
+}}}}}

@@ -1,0 +1,25 @@
+class shubham
+{
+	void max(int a , int b)
+	{
+		System.out.println("int method started");
+		if (a>b)
+			System.out.println("largest is "+a);
+		else
+			System.out.println("largest is "+b);
+	}
+	void max(double a , double b)
+	{
+		System.out.println("double method started");
+		if (a>b)
+			System.out.println("largest is "+a);
+		else
+			System.out.println("largest is "+b);
+	}
+	public static void main(String[] args) 
+	{
+		shubham s = new shuham();
+		s.max(10,20);
+		s.max(20.5,40.25);
+	}
+}
